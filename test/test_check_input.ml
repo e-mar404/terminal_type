@@ -7,10 +7,18 @@ let correct_color_char _ =
 let incorrect_color_char _ =
   assert_equal "\033[31ma\033[0m" (color 'a' Incorrect)
 
+let check_correct_char _ =
+  assert_equal Correct (check ~input:'a' ~text:'a')
+
+let check_incorrect_char _ =
+  assert_equal Incorrect (check ~input:'b' ~text:'a')
+
 let suite =
   "suite" >::: [
     "correct_color_char" >:: correct_color_char;
     "incorrect_color_char" >:: incorrect_color_char;
+    "check_correct_char" >:: check_correct_char;
+    "check_incorrect_char" >:: check_incorrect_char; 
   ]
 
 let () =
