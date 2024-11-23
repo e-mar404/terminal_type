@@ -1,0 +1,6 @@
+# dune init proj terminal_type
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/emar/.cache/dune/db
+# Workspace root: /Users/emar/projects/terminal_type
+# Auto-detected concurrency: 8
