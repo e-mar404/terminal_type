@@ -1,2 +1,7 @@
 (test
- (name test_terminal_type))
+ (name test_terminal_type)
+ (libraries ounit2))
+
+(test
+  (name test_check_input)
+  (libraries Check_input ounit2))

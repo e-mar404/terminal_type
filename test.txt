@@ -1,0 +1,5 @@
+✓ color() takes in a correct char and returns the char colored with the 'right' color code
+✓ color() takes in an incorrect char and returns the char colored with the 'wrong' color code
+
+- check() takes in a correct input char and a text char and returns a 'right' colored char
+- check() takes in an incorrect input char and a text char and returns a 'wrong' colored char

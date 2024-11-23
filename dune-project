@@ -16,4 +16,4 @@
 (package
  (name terminal_type)
  (synopsis "typing test on the terminal")
- (depends ocaml dune)
+ (depends ocaml dune))
