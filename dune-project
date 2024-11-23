@@ -5,22 +5,15 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github e-mar404/terminal_type))
 
-(authors "Author Name")
+(authors "Emilio Marin")
 
-(maintainers "Maintainer Name")
+(maintainers "Emilio Marin, but prob wont maintain")
 
 (license LICENSE)
 
-(documentation https://url/to/documentation)
-
 (package
  (name terminal_type)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "typing test on the terminal")
  (depends ocaml dune)
- (tags
-  (topics "to describe" your project)))
-
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
