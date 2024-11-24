@@ -1,5 +1,5 @@
 open OUnit2
-open Check_input
+open Terminal_type.Check_input
 
 let correct_color_char _ =
   assert_equal "\033[32ma\033[0m" (color 'a' Correct)

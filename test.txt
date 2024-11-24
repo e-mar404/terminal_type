@@ -3,3 +3,11 @@
 
 ✓ check() takes in a correct input char and a text char and returns a 'right' colored char
 ✓ check() takes in an incorrect input char and a text char and returns a 'wrong' colored char
+
+- take text to test, input function and display function and test
+  ✓ first input is correct
+  ✓ first input is incorrect
+  - first input is backspace
+  - first input is correct and second is incorrect
+  - first input is incorrect and second is correct
+  - first input is correct and second is backspace

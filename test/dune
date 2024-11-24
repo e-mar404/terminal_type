@@ -1,7 +1,7 @@
 (test
- (name test_terminal_type)
- (libraries ounit2))
+  (name test_check_input)
+  (libraries terminal_type ounit2))
 
 (test
-  (name test_check_input)
-  (libraries Check_input ounit2))
+  (name test_typing_test)
+  (libraries terminal_type ounit2))
