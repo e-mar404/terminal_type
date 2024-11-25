@@ -7,7 +7,7 @@
 - take text to test, input function and display function and test
   ✓ first input is correct
   ✓ first input is incorrect
-  - first input is backspace
+  ✓ first input is backspace
   ✓ fist and second input is correct
   ✓ first and second input is incorrect
   ✓ first input is correct and second is incorrect
