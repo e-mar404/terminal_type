@@ -1,7 +1,12 @@
 open Check_input
 
 let typing_test ~read_input ~display ~test_text = 
-  let user_input = read_input () in
-  let result = check ~input:user_input ~text:(List.hd test_text) in
-  let colored_result = color user_input result in
-  display colored_result
+  List.iteri
+    (fun index expected_char ->
+      match read_input () with
+      | None -> failwith "error with input" 
+      | Some user_input ->
+        let result = check ~input:user_input ~text:expected_char in
+        let colored_result = color expected_char result in
+        display colored_result index)
+    test_text

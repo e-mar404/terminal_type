@@ -8,6 +8,8 @@
   ✓ first input is correct
   ✓ first input is incorrect
   - first input is backspace
+  ✓ fist and second input is correct
+  ✓ first and second input is incorrect
   - first input is correct and second is incorrect
   - first input is incorrect and second is correct
   - first input is correct and second is backspace
