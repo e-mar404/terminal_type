@@ -10,10 +10,10 @@ type status =
   | Backspace
 
 let color_code = function
-  | Green -> "\033[32m"
-  | Red -> "\033[31m"
-  | LightGray -> "\033[39;2m"
-  | Reset -> "\033[0m"
+  | Green -> "\027[32m"
+  | Red -> "\027[31m"
+  | LightGray -> "\027[39;2m"
+  | Reset -> "\027[0m"
 
 let status_to_color = function
   | Correct -> Green

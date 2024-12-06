@@ -4,12 +4,6 @@
 ✓ check() takes in a correct input char and a text char and returns a 'right' colored char
 ✓ check() takes in an incorrect input char and a text char and returns a 'wrong' colored char
 
-- take text to test, input function and display function and test
-  ✓ first input is correct
-  ✓ first input is incorrect
-  ✓ first input is backspace
-  ✓ fist and second input is correct
-  ✓ first and second input is incorrect
-  ✓ first input is correct and second is incorrect
-  ✓ first input is incorrect and second is correct
-  - first input is correct and second is backspace
+- display() takes in a correct input letter and shows that letter with the correct color and everything else with the lighgray background
+- display() takes in an incorrect input letter and shows that letter with the 'incorrect' color and everything else with the lightgray background
+- display() takes backspace and shows the light background of that letter with everything before that letter being the correct color and the rest having the lightgray background

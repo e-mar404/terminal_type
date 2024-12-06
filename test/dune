@@ -2,6 +2,6 @@
   (name test_check_input)
   (libraries terminal_type ounit2))
 
-(test
-  (name test_typing_test)
+(test 
+  (name test_display)
   (libraries terminal_type ounit2))

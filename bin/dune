@@ -1,4 +1,5 @@
 (executable
  (public_name terminal_type)
  (name main)
- (libraries terminal_type))
+ (preprocess (pps ppx_deriving.enum))
+ (libraries Unix terminal_type))
